@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+    
+
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(18, 18, 62);
+    /* top: 0; */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 2rem rgb(0, 0, 33);
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+    color: white;
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    ;
+
+}
+
+nav ul li a:hover,
+.nav ul li a.active {
+    text-decoration: underline;
+
+    color: rgb(94, 71, 226);
+    
+}
+
+.left {
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0px;
+    align-items: center;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+
+.rightSection img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.blue {
+    color: rgb(81, 81, 165);
+}
+
+#element {
+    color: rgb(81, 81, 165);
+
+}
+
+.secondsection {
+    max-width: 80vm;
+    margin: auto;
+}
+
+.firstSection button {
+    width: 150px;
+    height: 50px;
+    border: 10px;
+    border-radius: 10px;
+    background-color: rgb(44, 26, 123);
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.firstSection button a{
+    color: black;
+    text-decoration: none;
+}
+
+.leftSection .button {
+    padding: 23px;
+    /* color: black; */
+
+}
+
+.leftSection .btn {
+    padding: 12px;
+    
+    
+
+}
+
+.firstSection button:hover {
+    /* color: rgb(23, 42, 94); */
+    font-size: 1rem;
+}
+
+
+
+.about h2 {
+    color: white;
+    font-size: 50px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    margin-top: 200px;
+
+}
+.about p{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+
+    
+
+
+}
+
+.card {
+   
+    height: 500px;
+    width: 400px;
+    padding: 10px 10px;
+    background-color: rgb(98, 93, 161);
+    margin: 100px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;  
+
+}
+.skill.card{
+    box-shadow: 0 14px 28px rgba(0, 0, 0,0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill.li{
+    margin: 40px 20px;
+    padding: 10px;
+    margin-top: 60px;
+    align-items: center;
+}
+.card .bar{
+    background: #353b35;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0,0.12),0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, 0.8, 0.25, 1);
+}
+.card .bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0,0.25),0 10px 10px rgba(0, 0, 0, 0.24 );
+}
+.card .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(0,0,33)0%,rgba(98,93,161)100%);
+}
+
+/* bar---------------------
+-------------- percentage */
+
+
+.html{
+    width: 80%;
+    animation: html 3s;
+}
+.css{
+    width: 85%;
+    animation: css 3s;
+}
+.javascript{
+    width: 75%;
+    animation: javascript 3s;
+}
+.php{
+    width: 70%;
+    animation: php 3s;
+}
+.react{
+    width: 60%;
+    animation: react 3s;
+}
+.python{
+    width: 80%;
+    animation: python 3s;
+}
+.flutter{
+    width: 70%;
+    animation: flutter 3s;
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 80%;
+    }
+    
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes php{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes python{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes react{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes flutter{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+/* bar----------percentage-------- */
+
+.card img {
+    margin: auto;
+
+
+}
+
+
+footer {
+    background-color: rgb(0, 0, 33);
+    
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+    
+   
+
+    
+   
+}
+.footer-second{
+    flex-grow: 1;
+}
+.footer-third a:hover{
+    text-decoration: solid;
+    color: rgb(66, 81, 81);
+}
+.footer-first a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.footer-first a:hover,.footer-first a:active{
+    text-decoration: solid;
+    color: rgb(66, 81, 81);
+}
+.footer ul {
+    list-style: none;
+    
+   
+}
+
+.footer>div {
+    width: 223px;
+    text-align: center;
+   
+
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px;
+
+}
+.footer img{
+    size: 0px;
+}
+
+
+
+
+.skills h2 {
+    color: white;
+    font-size: 50px;
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 20px;
+
+
+
+}
+.skills p{
+    text-align: center;
+    margin: 20px;
+}
+.card h3{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: black;
+
+}
+
+.contact h2 {
+    color: white;
+    font-size: 50px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    margin-top: 140px;
+}
+
+section:nth-child(odd) {
+    background: rgb(0, 0, 33);
+}
+
+form {
+    background: rgb(98, 93, 161);
+    display: flex;
+    flex-direction: column;
+    padding: 2vm 2vm;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 30px;
+    margin: 0 20px;
+
+}
+
+form h3 {
+    font-weight: 800;
+    margin: bottom 20px;
+    
+    
+
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px 20px;
+    outline: none;
+    font-size: 10px;
+    background: #f5f5f5;
+
+}
+
+
+
+form button {
+
+
+    padding: 15px;
+    color:black;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: gray;
+    width: 100px;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+}
+form button:hover{
+    color: black;
+    text-decoration: underline;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    *{
+        scroll-behavior: smooths;
+    }
+
+
+    .firstSection {
+        flex-direction: column-reverse ;
+        justify-content: center;
+        font-size: 100px; 
+        
+        }
+        .left{
+            font-size: 50px;
+        }
+    
+
+    .box {
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        margin-left: 580px;
+        font-size: 1rem;
+        padding: 20px;
+        
+    }
+    
+
+    nav {
+        flex-direction: column;
+        position: fixed;
+        height: 250px;
+        font-size: 50px; 
+        
+
+        
+    }
+    .card{
+        height: 1000px;
+        width: 800px;
+        font-size: 50px;
+        margin: 100px;
+        margin-left: 80px;
+    }
+    .firstSection button {
+        width: 100%;
+        height: 25%;
+        border: 10%;
+        border-radius: 10%;
+        padding: 10%;
+        font-size: 2rem;
+       
+        
+    
+    }
+    .about h2 {
+        font-size: 100px;
+    }
+    .skills h2{
+        font-size: 100px;
+        margin-right: 20px;
+    }
+    .contact h2{
+        font-size: 100px;
+    }
+
+    .leftSection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto 140px; */
+        margin-left: 800px;
+        font-size: 100px;
+
+    }
+
+
+    .rightSection {
+        width: 421px !important;
+        display: flex;
+        justify-content: center;
+        margin-left: 180px;
+    }
+
+    .rightSection img {
+        width: 1000px;
+        margin-bottom: 73px;
+        justify-content: center;
+        margin-top: 200px;
+        margin-left: 135%;
+    }
+
+    .secondsection {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 100px;
+    }
+    .footer {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        margin-left: 240px;
+        font-size: 50px;
+    
+    }
+    .footer-second {
+        text-align: center;
+        display: inline;
+    }
+
+    body {
+        min-width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .skills h2{
+        
+        margin-left: 490px;
+    }
+    .footer-rights{
+        margin-left: 260px;
+        flex-direction: row;
+        padding: 12px;
+        display: flex;
+        font-size: 50px;
+    }
+    .form input,
+    form textarea {
+        
+        /* margin: 20px 0px;
+        height: 20%;
+     */
+       border-radius: 30px;
+        font-size: 50px;
+        background: #f5f5f5; 
+    }
+    form{
+        margin: 10px 10px;
+        margin-left: 10%;
+    }
+    form button{
+        padding: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+       min-height:  10px;
+        font-size: 50px;
+        width: 100%;
+        border-radius: 30px;
+        margin-top: 50px;
+    }
+
+    .contact{
+        font-size: 25px;
+        
+
+        
+    }
+    form h3 {
+        font-size: 50px;
+        margin: 40px 10px;
+        
+    }
+    
+}
